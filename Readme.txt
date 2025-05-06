@@ -52,6 +52,9 @@ processed_dataset/
 
 README.md
 
+
+
+
 Technologies Used
 
 Python 3.x
@@ -77,6 +80,9 @@ Landmark feature layers to process 21-point hand landmark vectors.
 Fully connected layers to combine image and landmark features for final gesture classification.
 
 The model achieved approximately 96% accuracy on the validation dataset.
+
+
+
 
 Real-Time Gesture Prediction
 
@@ -106,6 +112,10 @@ Evaluating model performance and saving the final model.
 
 This notebook is designed for ease of review and to allow others to reproduce the experiment if required.
 
+
+
+
+
 Running the Software
 
 To run the real-time prediction software, execute the following commands:
@@ -114,13 +124,6 @@ cd Software
 python realtime_prediction.py
 
 Ensure that a webcam is connected and accessible for capturing live video input.
-
-Acknowledgements
-
-This project was completed under the guidance of [Professor’s Name], as part of the Masters of Applied Computing program at Wilfrid Laurier University.
-
-Special thanks to the members of Group 3 for their collaborative effort in developing the dataset, training the model, and building the real-time application.
-
 License
 
 This project is intended for academic and portfolio use only. All data and code are provided for educational purposes.
